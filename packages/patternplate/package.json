@@ -1,0 +1,42 @@
+{
+  "name": "patternplate",
+  "version": "1.0.0",
+  "description": "Create, show and deliver component libraries",
+  "scripts": {
+    "lint": "xo",
+    "test": "ava"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015-node4",
+      "es2017"
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinnerschrader/patternplate.git"
+  },
+  "author": "Mario Nebl <hello@herebecode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinnerschrader/patternplate/issues"
+  },
+  "homepage": "https://github.com/sinnerschrader/patternplate#readme",
+  "devDependencies": {
+    "ava": "0.16.0",
+    "browserify": "13.1.0",
+    "xo": "0.16.0"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
