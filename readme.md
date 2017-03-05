@@ -14,6 +14,8 @@ patternplate is a platform designed to help you create and maintain component li
 
 ## Prerequisites
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sinnerschrader/patternplate.svg)](https://greenkeeper.io/)
+
 patternplate is based on Node.js. Lowest supported version is the current LTS release and
 the npm version that ships with it.
 
